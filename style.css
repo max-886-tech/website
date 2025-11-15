@@ -1,0 +1,38 @@
+/*
+Theme Name: Exam Nibbles Minimal WooCommerce
+Theme URI: https://exam-nibbles.example
+Author: Exam Nibbles
+Author URI: https://exam-nibbles.example
+Description: Minimal WooCommerce theme optimized for virtual/downloadable products with a 3-column product layout, Demo button support, update block, mobile jump-to-price, and admin Quick/Bulk Edit for custom fields.
+Version: 1.4.1
+License: GPL-2.0-or-later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: exam-nibbles-minimal
+Tags: woocommerce, minimal, ecommerce, digital-products
+*/
+
+.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product {
+border: 1px solid #eaeaea;
+    border-radius: 15px;
+    background: #fff;
+    padding: 15px;
+    display: grid
+;
+    align-items: end;
+    height: 500px;
+    transition: all 0.3s 
+ease;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.woocommerce ul.products li.product .button {
+background: #0048b4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}

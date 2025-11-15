@@ -1,0 +1,98 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#111111"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#666666"
+        },
+        {
+          "slug": "border",
+          "name": "Border",
+          "color": "#e9e9e9"
+        },
+        {
+          "slug": "bg",
+          "name": "Background",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "en-blue-600",
+          "name": "EN Blue",
+          "color": "#1E62FF"
+        },
+        {
+          "slug": "en-blue-700",
+          "name": "EN Blue Dark",
+          "color": "#1348CC"
+        }
+      ]
+    },
+    "spacing": {
+      "units": [
+        "px",
+        "rem",
+        "em",
+        "%",
+        "vh",
+        "vw"
+      ],
+      "spacingScale": {
+        "steps": 7
+      }
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, Liberation Sans, sans-serif",
+          "name": "System Sans",
+          "slug": "system"
+        },
+        {
+          "slug": "space-mono",
+          "name": "Space Mono",
+          "fontFamily": "Space Mono, monospace"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "0.9rem",
+          "slug": "sm"
+        },
+        {
+          "name": "Base",
+          "size": "1rem",
+          "slug": "base"
+        },
+        {
+          "name": "Large",
+          "size": "1.25rem",
+          "slug": "lg"
+        },
+        {
+          "name": "XL",
+          "size": "1.5rem",
+          "slug": "xl"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--space-mono)"
+    },
+    "color": {
+      "text": "#111111",
+      "background": "#ffffff"
+    }
+  }
+}
